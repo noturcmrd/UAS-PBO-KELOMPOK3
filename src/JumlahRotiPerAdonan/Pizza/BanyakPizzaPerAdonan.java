@@ -6,6 +6,6 @@ import Takaran.TakaranGramRoti;
 public class BanyakPizzaPerAdonan extends AdonanPizza {
     TakaranGramRoti takaranPizza = new TakaranGramRoti();
     public double hitungJumlahRotiPerAdonanPizza(){
-        return totalGramResep() / this.takaranPizza.getTakaranPizza();
+        return totlGramResep() / this.takaranPizza.getTakaranPizza();
     }
 }
